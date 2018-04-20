@@ -3,8 +3,16 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import ElementUI from 'element-ui';
+import axios from 'axios';
+
+Vue.use(ElementUI)
+
 
 Vue.config.productionTip = false
+
+/*Vue.prototype.$get = get;
+Vue.prototype.$post = post;*/
 
 /* eslint-disable no-new */
 new Vue({

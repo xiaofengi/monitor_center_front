@@ -1,0 +1,6 @@
+.searchCrawler{
+	.el-table__body el-table-column{
+		color: blue;
+		height: 52px;
+	}
+}
